@@ -1,0 +1,42 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+when we intialize a repository it will create a .git file inside the repository, it will be useful in tracking the history of repository and make it
+available for version control.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+Staging area is the virtual place where we add the all files we want to commit to the main repository , so by this we can setup all files we want to add to the
+repository and commit them in one go.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+Since we are adding one file to staging area we can make sure that we add the files only for one logical commit 
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Branches will helping in expermenting and at the same time we can have working code always to show, and we can be free on experimenting instead of worrying about
+the damage to the current work flow
+
+How do the diagrams help you visualize the branch structure?
+
+With the help of visualization we can see the commits of different branches clearly so that we can know what changes are made by each branch
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?`
+
+Merging two branches will help in as we can experiment on one branch and after successful experimentation we can merge to the main branch so that flow of the project
+will not get effected and diagramtic way will be helpful in knowing what were the commits under each branch.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+Pros :
+
+Automatic merging will save lot of time where programmer used to search the parts of code he made changes and later merging it.
+
+Cons :
+
+sometimes automatic merging will rise to conflicts and programmer unable to figure out if it is auomatically done
